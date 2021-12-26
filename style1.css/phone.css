@@ -1,0 +1,155 @@
+/* universal class */
+/* *{ */
+     /* background-color: blueviolet; */
+/* } */
+/* Naviagation Bar */
+#nav{
+     flex-direction: column;
+     width: 100vw;
+     position: sticys;
+}
+#nav ul li a{
+     padding: 3px 10px;
+     
+ 
+     margin: 10px 6px;
+     font-size: 16px;
+ 
+
+
+}
+#Logo{
+     margin: 10px;
+}
+#Logo img{
+     align-content: center;
+     align-items: center;
+     height: 45px;
+     width: 55px;
+}
+#nav::before{
+
+     height: 100%;
+     width: 100vw;
+}
+
+/* Home Content Section*/
+#home{
+     padding: 3px 8px;
+     
+     height: 450px;
+}
+#home h1{
+    
+     font-size: 1.6rem;
+     margin: 5px;
+     margin-top: 100px;
+     
+}
+#home p{
+     font-size: 1.1rem;
+     padding: 20px 2px;
+}
+#home::before{
+        
+     padding: 50px;
+     height: 360px;
+     width: 100%;
+}    
+
+/* Services Section */
+.service-container .container{
+     flex-direction: column;
+     }
+     #services .box{
+           
+          width: 320px;
+          height: 100%;
+          
+     }     
+     #services img{
+          height: 120px;
+          width: 150px;
+     }
+     .service-container #h-primary{
+           
+          font-size: 2.0rem;
+          padding: 20px;
+         
+     }
+     #services .h-secondary{
+          padding: 14px;
+     }
+     /* Client Section*/
+     #logo{
+          display: flex;
+          height:380px;
+          
+     }
+/* Client section */
+.client #logo img{
+     height: 80px;
+     width: 80px;
+     margin: 15px;
+     margin-top: 50px;
+     margin-left:30px;     
+}
+.client h1{
+      
+     font-size: 2.0rem;
+      
+     margin: auto;
+     padding: 20px;
+}
+#logo{
+     flex-wrap: wrap;
+     margin-top: 10px;
+}
+/* Contact Us Section */
+.Contact h1{ 
+     font-size: 2.0rem;
+      
+     margin: auto;
+     padding: 20px;
+}
+/* Contact us Form */
+.Contact #form1{
+   
+      
+     height: 100%;
+     width: 100vw;
+     color: white;
+     
+     font-size:1.0rem;
+     border: 2px solid none;
+     padding-top:30px;
+}
+#form1 input,textarea{
+     width: 280px;
+     height: 30px;
+     margin: 10px;
+     border-radius: 4px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Footer */
+#foot{
+     color: white;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1.1rem;
+     margin: 20px;
+}
+/* Utility tools */
+.btn{
+     font-size: 14px;
+   
+
+
+     border-radius: 8px;
+     width: 120px;
+     height: 45px;
+
+     margin: 10px;
+}
+#hr{
+     opacity: 0.3;
+}
